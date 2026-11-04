@@ -1,0 +1,12 @@
+ultralytics>=8.4
+kagglehub>=0.3
+torch>=2.2
+torchvision>=0.17
+torchmetrics>=1.4
+pycocotools>=2.0
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+Pillow>=10.0
+PyYAML>=6.0
+tqdm>=4.66

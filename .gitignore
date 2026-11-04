@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Datasets
+data/*
+!data/README.md
+*.zip
+*.tar
+*.tar.gz
+
+# Model weights
+models/*
+!models/README.md
+*.pt
+*.pth
+*.onnx
+
+# Training runs / caches
+runs/
+runs_sard/
+.cache/
+wandb/
+mlruns/
+*.cache
+
+# Colab / temp
+content/
+tmp/
+temp/
+
+# Secrets
+.env
+kaggle.json
+credentials.json
